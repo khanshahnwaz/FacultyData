@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.SignIn__main{
+    border: 2px solid black;
+    border-radius: 30px;
+    /* background-color: rgb(137, 137, 150); */
+    background-image: url('../BGimage.jpg');
+    max-width: 60%;
+    height:max-content;
+    margin: 10rem auto;
+}
+.SignIn__details{
+    text-align: center;
+    text-decoration:solid;
+
+
+}
+.SignIn__form{
+    display: flex;
+    margin-left: 20px;
+    text-align: left;
+    justify-content: center;
+}
+.SignIn__form label{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: block;
+    text-align: left;
+}
+
+.SignIn__form input,select{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    /* width: 20rem;                        */
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.SignIn__button{
+    color: green;
+    margin: 0 0 0.5rem 0rem;
+    border-radius: 6px;
+}
+.SignIn__signUp{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.SignIn__signUp button{
+    color: green;
+    border-radius: 6px;
+    margin-left: 2px;
+}
