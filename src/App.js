@@ -1,12 +1,14 @@
 import './App.css';
 import Header from './Components/Header';
-import SignUp from './Components/SignUp';
-import SignIn from './Components/SignIn';
+import SignUp from './pages/accounts/SignUp';
+import SignIn from './pages/accounts/SignIn';
+import ForgetPassword from './pages/accounts/ForgetPassword';
+import Headera from './pages/home/Header';
 const App=()=>{
   return (
     <>
-<Header/>
-<SignUp/>
+<Headera/>
+{/* <ForgetPassword/> */}
 </>
   );
 }

@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -16,7 +16,6 @@
 }
 .Header__value ul{
     display: flex;
-    /* justify-content: center; */
     gap:50rem;
     margin-left: 200px;
     list-style: none;
@@ -30,4 +29,4 @@
 .Header__value ul li a:hover{
    font-style:italic;
    color: rgb(206, 187, 81);
-}
+} */
