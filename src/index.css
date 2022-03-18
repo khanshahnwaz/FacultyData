@@ -1,6 +1,9 @@
 body {
   margin: 0;
   background-image: url('BGimage.jpg');
+  /* background-color: w; */
+  position: fixed;
+  padding: 2px;
   
 }
 
