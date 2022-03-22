@@ -1,5 +1,5 @@
 import './Header.css';
-
+import Button from '../accounts/Button';
 const Header =() =>{
     return (
         <div className='Header__main'>
@@ -11,8 +11,8 @@ const Header =() =>{
                 <ul>
                     <li><a><b>Home</b></a></li>
                     <li><a><b>Contact</b></a></li>
-                    <li><button>SignIn</button></li>
-                    <li><button>SignUp</button></li>
+                    <li><Button title='Sign In'></Button></li>
+                    <li><Button title='Sign Up'></Button></li>
                 </ul>
 
             </div>

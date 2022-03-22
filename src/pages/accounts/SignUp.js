@@ -1,39 +1,34 @@
 import './SignUp.css';
-
-const SignUp= () =>{
+import Button from './Button.js';
+const Signup= () =>{
     return (
-        <div className='SignUp__main'>
-            <div className='SignUp__details'>
-                <h2>Sign Up</h2>
-                <div className='SignUp__form'>
+        <>
+        <div className='signup_container'>
+            <div className='signup'>
+        <div className='signup_main'>
+            <div className='signup_header'>
+                <h2>Create an Account </h2>
+                <small>Sign Up with you email address.</small>
+            </div>
+            <div className='signup_details'>
                 <form>
-                    <label>Name</label>
-                    <input type='text' placeholder='First Name'></input>
-                    <input type='text' placeholder='Last Name'></input>
-                    <label>Email</label>
-                    <input type='email' placeholder='Email'></input>
-                    <label>Designation </label>
-                    <select name='Designation'>
-                        <option value='Designation'>Designation</option>
-                        <option value='Professor'>Professor</option>
-                        <option value='As.Professor'>As.Professor</option>
-                        <option value='Professor'>Professor</option>
-                    </select>
-                    <label>Mobile Number</label>
-                    <input type='number' placeholder='Mobile Number'></input>
-                    <label>Password</label>
-                    <input type='password' placeholder='Password'></input>
-                    <label>Confirm Password</label>
-                    <input type='password' placeholder='Confirm Password'></input>
-                    <br/>
-                    <button type='submit' className='SignUp__button'>SignUp</button><br/>
-                    <div className='SignUp__signIn'>
-                    <span>Already have an account?</span><button className='SignIn__button'>Sign in</button>
-                    </div>
+                <input type='text' placeholder='First Name'  className='designation'></input><br></br>
+                <input type='text' placeholder='Last Name' className='designation'></input><br></br>
+                <select name='designation' className='designation' id='desc'>
+                <option name='designation' value='Professor'>Professor</option>
+                <option name='designation' value='Associate Professor'>Associate Professor</option>  
+                <option name='designation' value='Assistant Professor'>Assistant Professor</option>
+                </select> 
+                <input type='email' placeholder='Email' className='designation'></input><br></br>
+                <input type='password' placeholder='Password' className='designation'></input><br></br>
+                <input type='password' placeholder='Confirm Password' className='designation'></input> <br></br>
+                <Button title='Sign Up'></Button>
                 </form>
                 </div>
             </div>
         </div>
+        </div>
+        </>
     );
-};
-export default SignUp;
+}
+export default Signup;

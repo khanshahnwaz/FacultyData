@@ -1,13 +1,11 @@
 body {
   margin: 0;
-  background-image: url('BGimage.jpg');
-  /* background-color: w; */
-  position: fixed;
+ 
+  background-color: white;
+
   padding: 2px;
+  /* position:absolute; */
   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
