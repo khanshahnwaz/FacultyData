@@ -6,11 +6,12 @@ import ForgetPassword from './pages/accounts/ForgetPassword';
 import Headera from './pages/home/Header';
 // import Home from './pages/home/Home';
 // import Profile from './pages/my_profile/Profile';
-const App=()=>{
+const App=(props)=>{
   return (
     <>
-<Headera/>
-<ForgetPassword/>
+<Headera />
+{/* <props.cmp /> */}
+<ForgetPassword/> }
 {/* <Home/> */}
 {/* <SignUp /> */}
 {/* <SignIn /> */}
